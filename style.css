@@ -1,31 +1,41 @@
-html,body{
-    width: 100vw;
-    margin: 0;
+html,
+body {
+  width: 100vw;
+  margin: 0;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 7px 16px 7px 16px;
-    border-bottom: 1px solid #EBECEF;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 16px 7px 16px;
+  border-bottom: 1px solid #ebecef;
 }
-#logo{
-    height: 30px;
-    width: 150px;
+#logo {
+  height: 30px;
+  width: 150px;
 }
-#button{
-    width: 110px;
-    height: 35px;
-    border: none;
-    background-color: #0071CE;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    padding: 4px 10px 4px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#button {
+  width: 110px;
+  height: 35px;
+  border: none;
+  background-color: #0071ce;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 4px 10px 4px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-body > div > div > a{
-    text-decoration: none;
+body > div > div > a {
+  text-decoration: none;
+}
+#main {
+  margin-top: 5%;
+}
+#img,
+#bannerImg {
+  max-width: 70%;
+  display: block;
+  margin: auto;
 }
